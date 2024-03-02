@@ -19,7 +19,6 @@ def listen():
     try:
         with sr.Microphone() as source:
             print("Escuchando...")
-            talk("Escuchando")
             listener.adjust_for_ambient_noise(source)
             pc = listener.listen(source)
             rec = listener.recognize_google(pc, language="es-ES")
@@ -50,7 +49,6 @@ def run_tym():
                     pywhatkit.playonyt(random_song)
             else:
                 print("Lo siento, no entendí. ¿Puedes repetirlo?")
-                talk("Lo siento, no entendí. ¿Puedes repetirlo?")
 
 def show_playlist():
     if len(playlist) > 0:

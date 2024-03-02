@@ -3,13 +3,19 @@ import pyttsx3
 import pywhatkit
 import random
 
-name = "tym"
+name = "tim"
 listener = sr.Recognizer()
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
 
-playlist = ["Manda una señal", "De pies a cabeza", "Corazón espinado", "Ángel de amor", "How can it be now?"]
+playlist = ["Manda una señal", 
+            "De pies a cabeza", 
+            "Corazón espinado", 
+            "Ángel de amor", 
+            "How can it be now?", 
+            "Labios compartidos",
+            "Knee Socks"]
 
 def talk(text):
     engine.say(text)

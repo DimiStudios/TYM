@@ -21,7 +21,7 @@ playlist = [
             ]
 
 maná = [
-        "Manda una señal", 
+        "Manda una señal",
         "De pies a cabeza",
         "Corazón espinado",
         "Ángel de amor",

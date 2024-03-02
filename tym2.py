@@ -90,6 +90,10 @@ def show_playlist():
         print("Lista de canciones:")
         for index, song in enumerate(playlist, start=1):
             print(f"{index}. {song}")
+    if len(maná) > 0:
+        print("Lista de maná:")
+        for index, song in enumerate(maná, start=1):
+            print(f"{index}. {song}")
     else:
         print("La lista de reproducción está vacía.")
     talk("La lista de canciones ha sido mostrada en la consola.")

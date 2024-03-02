@@ -9,19 +9,16 @@ engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
 
-playlist = [
-            "Manda una señal", 
+playlist = ["Manda una señal", 
             "De pies a cabeza", 
             "Corazón espinado", 
             "Ángel de amor", 
             "How can it be now?", 
             "Labios compartidos",
             "Knee Socks"
-            "Santana - La Flaca ft. Juanes"
-            ]
+            "Santana - La Flaca ft. Juanes"]
 
-maná = [
-        "Manda una señal",
+maná = ["Manda una señal",
         "De pies a cabeza",
         "Corazón espinado",
         "Ángel de amor",

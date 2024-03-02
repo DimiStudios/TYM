@@ -91,7 +91,7 @@ def show_playlist():
         for index, song in enumerate(playlist, start=1):
             print(f"{index}. {song}")
     if len(maná) > 0:
-        print("Lista de maná:")
+        print("Lista maná:")
         for index, song in enumerate(maná, start=1):
             print(f"{index}. {song}")
     else:

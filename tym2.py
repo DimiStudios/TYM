@@ -9,12 +9,25 @@ engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
 
-playlist = ["Manda una señal", 
-            "De pies a cabeza", 
-            "Corazón espinado", 
-            "Ángel de amor", 
-            "How can it be now?", 
+playlist = ["Manda una señal",
+            "De pies a cabeza",
+            "Corazón espinado",
+            "Ángel de amor",
             "Labios compartidos",
+            "¿Dónde jugarán los niños?",
+            "Vivir sin aire",
+            "Bendita tu luz",
+            "Mariposa Traicionera"
+            "Se me olvidó otra vez"
+            "El rey maná"
+            "Te lloré un río"
+            "Huele a tristeza"
+            "Eres mi religión"
+            "Me vale"
+            "En el muelle de san blas"
+            "Clavado en un bar"
+            "Rayando el sol"
+            "How can it be now?", 
             "Knee Socks"
             "Santana - La Flaca ft. Juanes"]
 
